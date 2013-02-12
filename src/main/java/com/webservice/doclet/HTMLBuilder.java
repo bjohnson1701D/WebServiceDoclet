@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Class that builds the Html as a string
+ * 
  * @author bjohnson
  *
  */

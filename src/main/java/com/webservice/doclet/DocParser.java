@@ -10,6 +10,7 @@ import com.sun.javadoc.AnnotationDesc.ElementValuePair;
 
 /**
  * Class that actually parses all of the information about the project
+ * 
  * @author bjohnson
  *
  */
