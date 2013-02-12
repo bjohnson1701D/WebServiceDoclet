@@ -43,7 +43,7 @@
 
 <pre><code>
 &lt;profile&gt;
-  &lt;id&gt;SpringWSDocs&lt;/id&gt;
+  &lt;id&gt;WebServiceDocs&lt;/id&gt;
 	&lt;build&gt;
 		&lt;plugins&gt;
 			&lt;plugin&gt;
@@ -51,10 +51,10 @@
 				&lt;artifactId&gt;maven-javadoc-plugin&lt;/artifactId&gt;
 				&lt;version&gt;2.9&lt;/version&gt;
 				&lt;configuration&gt;
-					&lt;doclet&gt;org.spring.webservices.SpringWSDoclet&lt;/doclet&gt;
+					&lt;doclet&gt;com.webservice.doclet.WebServiceDoclet&lt;/doclet&gt;
 					&lt;docletArtifact&gt;
-						&lt;groupId&gt;org.spring.webservices&lt;/groupId&gt;
-						&lt;artifactId&gt;SpringWSDoclet&lt;/artifactId&gt;
+						&lt;groupId&gt;com.webservice.doclet&lt;/groupId&gt;
+						&lt;artifactId&gt;WebServiceDoclet&lt;/artifactId&gt;
 						&lt;version&gt;0.0.9&lt;/version&gt;
 					&lt;/docletArtifact&gt;
 					&lt;additionalparam&gt;
@@ -62,7 +62,7 @@
 						-title &quot;Web Service Examples&quot;
 					&lt;/additionalparam&gt;
 					&lt;useStandardDocletOptions&gt;false&lt;/useStandardDocletOptions&gt;
-					&lt;destDir&gt;wsapi&lt;/destDir&gt;
+					&lt;destDir&gt;wsdocs&lt;/destDir&gt;
 				&lt;/configuration&gt;
 			&lt;/plugin&gt;
 		&lt;/plugins&gt;
