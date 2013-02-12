@@ -4,7 +4,6 @@ import org.apache.commons.lang.StringUtils;
 
 /**
  * Web Service Methods
- * 
  * @author bjohnson
  *
  */

@@ -10,7 +10,6 @@ import org.apache.commons.io.FileUtils;
 
 /**
  * Starting point for WebServiceDoclet
- * 
  * @author bjohnson
  *
  */
