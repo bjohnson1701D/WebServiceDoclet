@@ -36,13 +36,38 @@
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
+          
+<h3>Add To Project:</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>Add the following to your pom.xml file in your Maven project.</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>
+  <profile>
+        <id>WebServiceDocs</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>2.9</version>
+                        <configuration>
+                            <doclet>com.webservice.doclet.WebServiceDoclet</doclet>
+                            <docletArtifact>
+                                <groupId>com.webservice.doclet</groupId>
+                                <artifactId>WebServiceDoclet</artifactId>
+                                <version>0.0.9</version>
+                            </docletArtifact>
+                            <additionalparam>
+                                -fileName "ws.html"
+                                -title "My Web Services"
+                            </additionalparam>
+                            <useStandardDocletOptions>false</useStandardDocletOptions>
+                            <destDir>wsdocs</destDir>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
