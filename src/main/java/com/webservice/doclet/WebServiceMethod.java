@@ -2,6 +2,11 @@ package com.webservice.doclet;
 
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * Web Service Methods
+ * @author bjohnson
+ *
+ */
 public class WebServiceMethod {
 	private String endpoint = "";
 	private String returns = "";

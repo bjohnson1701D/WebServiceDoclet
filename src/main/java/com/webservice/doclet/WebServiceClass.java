@@ -7,6 +7,11 @@ import org.apache.commons.lang.StringUtils;
 
 import com.sun.javadoc.ClassDoc;
 
+/**
+ * Web Service Class
+ * @author bjohnson
+ *
+ */
 public class WebServiceClass {
 	private String className = "";
 	private String root = "";

@@ -8,6 +8,11 @@ import com.sun.javadoc.ClassDoc;
 import com.sun.javadoc.MethodDoc;
 import com.sun.javadoc.AnnotationDesc.ElementValuePair;
 
+/**
+ * Class that actually parses all of the information about the project
+ * @author bjohnson
+ *
+ */
 public class DocParser {
 
 	/**

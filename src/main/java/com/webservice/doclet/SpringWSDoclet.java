@@ -8,6 +8,11 @@ import com.sun.javadoc.*;
 import com.sun.tools.doclets.standard.Standard;
 import org.apache.commons.io.FileUtils;
 
+/**
+ * Starting point for WebServiceDoclet
+ * @author bjohnson
+ *
+ */
 public class SpringWSDoclet extends Standard {
 	private static String title = "Web Services API";
 	private static String fileName = "wsAPI.html";

@@ -4,6 +4,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Class that builds the Html as a string
+ * @author bjohnson
+ *
+ */
 public class HTMLBuilder {
 
 	public static String createContent(List<WebServiceClass> services,

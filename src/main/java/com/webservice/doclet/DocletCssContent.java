@@ -1,5 +1,10 @@
 package com.webservice.doclet;
 
+/**
+ * String to create css content from
+ * @author bjohnson
+ *
+ */
 public class DocletCssContent {
 	public final static String CSS_CONTENT = ""
 			+ "body{background-color:#D1D6DF}"
