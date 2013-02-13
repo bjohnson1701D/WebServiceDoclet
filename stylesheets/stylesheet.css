@@ -367,11 +367,12 @@ footer .owner p a {
   box-shadow: none;
   background-color:#2a2a2a;
   color: #d6d6d6;
-  /*border-left: 1px solid #d6d6d6;
-  border-right: 1px solid #d6d6d6;*/
 
 }
 
+.xmltype{
+color:#9FE8FF;
+}
 .markdown-body ul,
 .markdown-body ol {
   padding-left: 30px;
@@ -405,14 +406,13 @@ footer .owner p a {
 }
 
 .markdown-body table {
-  width: 1000px;
-  margin-left: -20px;
-  margin-right: -20px;
+  width: 960px;
 }
 
 .markdown-body tbody {
-  border-top: 2px solid #557398;
-  border-bottom: 2px solid #557398;
+  /*border-top: 2px solid #557398;
+  border-bottom: 2px solid #557398;*/
+  border: 2px solid #557398;
   background-color: #EBEFF4;
 }
 

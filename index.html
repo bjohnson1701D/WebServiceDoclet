@@ -36,7 +36,21 @@
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
-          
+          <script>
+		  $(function() {
+				$('code').each(function(){
+					$(this).html($(this).html().replace(new RegExp(/&lt;/g),'<span class="xmltype">&lt;'));
+					$(this).html($(this).html().replace(new RegExp(/&gt;/g),'&gt;</span>'));
+				});
+			});
+		  </script>
+<h2>Introduction</h2>
+<p>The Web Service Doclet is for use in Spring projects, the doclet checks all classes annotated with the @Controller annotation.  Any of your web services in those classes that are annotated with @RequestMapping will be documented. Currently the following information about your web services will be documented:
+<table>
+<tr><td>Method Type:</td><td></td></tr>
+<tr><td>asdfasdf</td><td></td></tr>
+</table><br/></p>
+
 <h3>Add To Project:</h3>
 <p>Add the following to your pom.xml file in your Maven project.</p>
 <pre><code>&lt;profile&gt;
@@ -66,7 +80,7 @@
 	&lt;/build&gt;
 &lt;/profile&gt;
 </code></pre>
-<p>Run the following maven command:</p>
+<p>To execute the Web Service Doclet, run the following maven command:</p>
 <pre><code>mvn -PWebServiceDocs javadoc:javadoc</code></pre>
 
 
