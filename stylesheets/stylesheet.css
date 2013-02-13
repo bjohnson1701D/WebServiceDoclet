@@ -346,8 +346,8 @@ footer .owner p a {
 
 .markdown-body pre {
   padding: 10px 70px 10px 0;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -30px;
+  margin-right: -30px;
   font-family: 'Monaco', 'Lucida Console', monospace;
   font-size: 13px;
   line-height: 20px;
@@ -367,6 +367,9 @@ footer .owner p a {
   box-shadow: none;
   background-color:#2a2a2a;
   color: #d6d6d6;
+  /*border-left: 1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;*/
+
 }
 
 .markdown-body ul,
